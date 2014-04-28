@@ -9,54 +9,84 @@ PRISM implementation on FPGA
 The purpose of this program is to keep adding 1 until the number in the accumulator is no longer negative. if the number is negative the program jumps back to the operation in which one is added to the accumulator. Once the number in the accumulator is no longer negative, it ends.
 
 #### Program 1 Controller States.
+![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/Program_1.GIF?raw=true "PROGRAM 1")
 
 (note: Starting at 35ns, since 0-30ns is given).
 
   ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/1.gif?raw=true "Control State 1 of 4")
   
   Step 1: Fetching the new Instruction
+  
     - note irld is high, and so is pcld.
+    
+    
   Step 2: Decodes it, and receives the instruction to add the number 1.
+  
   Step 3: Immediate Execute State. 
+  
     - addition is done, accumulator is reloaded.
+    
     -PCLD and ACCLD are both high.
+    
   Step 4: New instruction is fetched
   
   ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/2.gif?raw=true "Control State 2 of 4")
   
   Step 1: Decode state.  instruction output is obtained.
+  
     - IRld and PCld are both high.
+    
   Step 2: Decode LoAddr state. Output is chosen
+  
     - PCld High, MARlo high.
+    
   Step 3: Direct I/O Execute: Value is output.
+  
   Step 4: Fetch State.
   
   ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/3.gif?raw=true "Control State 3 of 4")
   
   Step 1: Decode state.  instruction jump negative is obtained.
+  
     - IRld and PCld are both high.
+    
   Step 2: Decode LoAddr state
+  
     - PCld high, and MARlo High.
+    
       - Lo 4 bit address is obtained
+      
   Step 3: Decod HiAddr state
+  
     -PCld highm MARhi High
+    
       - high bit address is obtained
+      
   Step 4: Jump is executed.
     
   ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/4.gif?raw=true "Control State 4 of 4")
   
   Step 1: Fetch State happened before.
-  Step 2: Decode state, Jump instruction is obtained.
-    - IRld and PCld are both high.
-  Step 3: Decode LoAddr state
-    - PCld high, and MARlo High.
-      - Lo 4 bit address is obtained
-  Step 4: Decod HiAddr state
-    -PCld highm MARhi High
-      - high bit address is obtained
-  Step 5: Jump is executed.
-  Step 6: Program repeatedly jumps to this same address. Thus program is complete.
   
+  Step 2: Decode state, Jump instruction is obtained.
+  
+    - IRld and PCld are both high.
+    
+  Step 3: Decode LoAddr state
+  
+    - PCld high, and MARlo High.
+    
+      - Lo 4 bit address is obtained
+      
+  Step 4: Decod HiAddr state
+  
+    -PCld highm MARhi High
+    
+      - high bit address is obtained
+      
+  Step 5: Jump is executed.
+  
+  Step 6: Program repeatedly jumps to this same address. Thus program is complete.
           
 
 #### Answers to Questions
