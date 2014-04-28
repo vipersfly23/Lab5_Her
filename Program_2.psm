@@ -10,8 +10,8 @@
 		   09	   0				Y	0	N
 		   0A	   B				Y	0	N
 		   0B	   B	JN	small		N	2	N
-		   0C	   X				Y	0	N
-		   0D	   X				Y	0	N
+		   0C	   F				Y	0	N
+		   0D	   4				Y	0	N
 		   0E	   7	LDAI	1		N	1	Y
 		   0F	   1				Y	0	N
 		   10	   1	NEG			N	0	Y
@@ -28,118 +28,118 @@
 		   1B	   2				Y	0	N
 		   1C	   B				Y	0	N
 		   1D	   A	JZ	zero1		N	2	Y
-		   1E	   X				Y	0	N
-		   1F	   X				Y	0	N
-		   20	   0	NOP			N	0	N
-		   21	   0	NOP			N	0	N
-		   22	   0	NOP			N	0	N
-		   23	   0	NOP			N	0	N
-		   24	   0	NOP			N	0	N
-		   25	   0	NOP			N	0	N
-		   26	   0	NOP			N	0	N
-		   27	   0	NOP			N	0	N
-		   28	   0	NOP			N	0	N
-		   29	   0	NOP			N	0	N
-		   2A	   0	NOP			N	0	N
-		   2B	   0	NOP			N	0	N
-		   2C	   0	NOP			N	0	N
-		   2D	   0	NOP			N	0	N
-		   2E	   0	NOP			N	0	N
-		   2F	   0	NOP			N	0	N
-		   30	   0	NOP			N	0	N
-		   31	   0	NOP			N	0	N
-		   32	   0	NOP			N	0	N
-		   33	   0	NOP			N	0	N
-		   34	   0	NOP			N	0	N
-		   35	   0	NOP			N	0	N
-		   36	   0	NOP			N	0	N
-		   37	   0	NOP			N	0	N
-		   38	   0	NOP			N	0	N
-		   39	   0	NOP			N	0	N
-		   3A	   0	NOP			N	0	N
-		   3B	   0	NOP			N	0	N
-		   3C	   0	NOP			N	0	N
-		   3D	   0	NOP			N	0	N
-		   3E	   0	NOP			N	0	N
-		   3F	   0	NOP			N	0	N
-		   40	   0	NOP			N	0	N
-		   41	   0	NOP			N	0	N
-		   42	   0	NOP			N	0	N
-		   43	   0	NOP			N	0	N
-		   44	   0	NOP			N	0	N
-		   45	   0	NOP			N	0	N
-		   46	   0	NOP			N	0	N
-		   47	   0	NOP			N	0	N
-		   48	   0	NOP			N	0	N
-		   49	   0	NOP			N	0	N
-		   4A	   0	NOP			N	0	N
-		   4B	   0	NOP			N	0	N
-		   4C	   0	NOP			N	0	N
-		   4D	   0	NOP			N	0	N
-		   4E	   0	NOP			N	0	N
-		   4F	   0	NOP			N	0	N
-		   50	   0	NOP			N	0	N
-		   51	   0	NOP			N	0	N
-		   52	   0	NOP			N	0	N
-		   53	   0	NOP			N	0	N
-		   54	   0	NOP			N	0	N
-		   55	   0	NOP			N	0	N
-		   56	   0	NOP			N	0	N
-		   57	   0	NOP			N	0	N
-		   58	   0	NOP			N	0	N
-		   59	   0	NOP			N	0	N
-		   5A	   0	NOP			N	0	N
-		   5B	   0	NOP			N	0	N
-		   5C	   0	NOP			N	0	N
-		   5D	   0	NOP			N	0	N
-		   5E	   0	NOP			N	0	N
-		   5F	   0	NOP			N	0	N
-		   60	   0	NOP			N	0	N
-		   61	   0	NOP			N	0	N
-		   62	   0	NOP			N	0	N
-		   63	   0	NOP			N	0	N
-		   64	   0	NOP			N	0	N
-		   65	   0	NOP			N	0	N
-		   66	   0	NOP			N	0	N
-		   67	   0	NOP			N	0	N
-		   68	   0	NOP			N	0	N
-		   69	   0	NOP			N	0	N
-		   6A	   0	NOP			N	0	N
-		   6B	   0	NOP			N	0	N
-		   6C	   0	NOP			N	0	N
-		   6D	   0	NOP			N	0	N
-		   6E	   0	NOP			N	0	N
-		   6F	   0	NOP			N	0	N
-		   70	   0	NOP			N	0	N
-		   71	   0	NOP			N	0	N
-		   72	   0	NOP			N	0	N
-		   73	   0	NOP			N	0	N
-		   74	   0	NOP			N	0	N
-		   75	   0	NOP			N	0	N
-		   76	   0	NOP			N	0	N
-		   77	   0	NOP			N	0	N
-		   78	   0	NOP			N	0	N
-		   79	   0	NOP			N	0	N
-		   7A	   0	NOP			N	0	N
-		   7B	   0	NOP			N	0	N
-		   7C	   0	NOP			N	0	N
-		   7D	   0	NOP			N	0	N
-		   7E	   0	NOP			N	0	N
-		   7F	   0	NOP			N	0	N
-		   80	   0	NOP			N	0	N
-		   81	   0	NOP			N	0	N
-		   82	   0	NOP			N	0	N
-		   83	   0	NOP			N	0	N
-		   84	   0	NOP			N	0	N
-		   85	   0	NOP			N	0	N
-		   86	   0	NOP			N	0	N
-		   87	   0	NOP			N	0	N
-		   88	   0	NOP			N	0	N
-		   89	   0	NOP			N	0	N
-		   8A	   0	NOP			N	0	N
-		   8B	   0	NOP			N	0	N
-		   8C	   0	NOP			N	0	N
-		   8D	   0	NOP			N	0	N
+		   1E	   D				Y	0	N
+		   1F	   2				Y	0	N
+	cont1	   20	   F	LDAD	value2		N	2	Y
+		   21	   2				Y	0	N
+		   22	   B				Y	0	N
+		   23	   4	OUT	1		N	1	Y
+		   24	   1				Y	0	N
+		   25	   F	LDAD	value3		N	2	Y
+		   26	   3				Y	0	N
+		   27	   B				Y	0	N
+		   28	   4	OUT	0		N	1	Y
+		   29	   0				Y	0	N
+		   2A	   9	JMP	start		N	2	Y
+		   2B	   6				Y	0	N
+		   2C	   0				Y	0	N
+	zero1	   2D	   7	LDAI	9		N	1	Y
+		   2E	   9				Y	0	N
+		   2F	   D	STA	value2		N	2	Y
+		   30	   2				Y	0	N
+		   31	   B				Y	0	N
+		   32	   7	LDAI	1		N	1	Y
+		   33	   1				Y	0	N
+		   34	   1	NEG			N	0	N
+		   35	   E	ADDD	value3		N	2	Y
+		   36	   3				Y	0	N
+		   37	   B				Y	0	N
+		   38	   D	STA	value3		N	2	Y
+		   39	   3				Y	0	N
+		   3A	   B				Y	0	N
+		   3B	   7	LDAI	F		N	1	Y
+		   3C	   F				Y	0	N
+		   3D	   1	NEG			N	0	Y
+		   3E	   E	ADDD	value3		N	2	Y
+		   3F	   3				Y	0	N
+		   40	   B				Y	0	N
+		   41	   A	JZ	zeros1		N	2	Y
+		   42	   7				Y	0	N
+		   43	   4				Y	0	N
+		   44	   9	JMP	cont1		N	2	Y
+		   45	   0				Y	0	N
+		   46	   2				Y	0	N
+	zeros1	   47	   7	LDAI	9		N	1	Y
+		   48	   9				Y	0	N
+		   49	   D	STA	value3		N	2	Y
+		   4A	   3				Y	0	N
+		   4B	   B				Y	0	N
+		   4C	   9	JMP	cont1		N	2	Y
+		   4D	   0				Y	0	N
+		   4E	   2				Y	0	N
+	small	   4F	   F	LDAD	value2		N	2	Y
+		   50	   2				Y	0	N
+		   51	   B				Y	0	N
+		   52	   6	ADDI	1		N	1	Y
+		   53	   1				Y	0	N
+		   54	   D	STA	value2		N	2	Y
+		   55	   2				Y	0	N
+		   56	   B				Y	0	N
+		   57	   7	LDAI	A		N	1	Y
+		   58	   A				Y	0	N
+		   59	   1	NEG			N	0	Y
+		   5A	   E	ADDD	value2		N	2	Y
+		   5B	   2				Y	0	N
+		   5C	   B				Y	0	N
+		   5D	   A	JZ	zero		N	2	Y
+		   5E	   D				Y	0	N
+		   5F	   6				Y	0	N
+	cont	   60	   F	LDAD	value2		N	2	Y
+		   61	   2				Y	0	N
+		   62	   B				Y	0	N
+		   63	   4	OUT	1		N	1	Y
+		   64	   1				Y	0	N
+		   65	   F	LDAD	value3		N	2	Y
+		   66	   3				Y	0	N
+		   67	   B				Y	0	N
+		   68	   4	OUT	0		N	1	Y
+		   69	   0				Y	0	N
+		   6A	   9	JMP	start		N	2	Y
+		   6B	   6				Y	0	N
+		   6C	   0				Y	0	N
+	zero	   6D	   7	LDAI	0		N	1	Y
+		   6E	   0				Y	0	N
+		   6F	   D	STA	value2		N	2	Y
+		   70	   2				Y	0	N
+		   71	   B				Y	0	N
+		   72	   F	LDAD	value3		N	2	Y
+		   73	   3				Y	0	N
+		   74	   B				Y	0	N
+		   75	   6	ADDI	1		N	1	Y
+		   76	   1				Y	0	N
+		   77	   D	STA	value3		N	2	Y
+		   78	   3				Y	0	N
+		   79	   B				Y	0	N
+		   7A	   7	LDAI	A		N	1	Y
+		   7B	   A				Y	0	N
+		   7C	   1	NEG			N	0	Y
+		   7D	   E	ADDD	value3		N	2	Y
+		   7E	   3				Y	0	N
+		   7F	   B				Y	0	N
+		   80	   A	JZ	zeros		N	2	Y
+		   81	   6				Y	0	N
+		   82	   8				Y	0	N
+		   83	   9	JMP	cont		N	2	Y
+		   84	   0				Y	0	N
+		   85	   6				Y	0	N
+	zeros	   86	   7	LDAI	0		N	1	Y
+		   87	   0				Y	0	N
+		   88	   D	STA	value3		N	2	Y
+		   89	   3				Y	0	N
+		   8A	   B				Y	0	N
+		   8B	   9	JMP	cont		N	2	Y
+		   8C	   0				Y	0	N
+		   8D	   6				Y	0	N
 		   8E	   0	NOP			N	0	N
 		   8F	   0	NOP			N	0	N
 		   90	   0	NOP			N	0	N
