@@ -5,12 +5,19 @@ PRISM implementation on FPGA
 ========
 
 #### 1st Program Discussion
-  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "ALU MODIFICATIONS")
+
 The purpose of this program is to keep adding 1 until the number in the accumulator is no longer negative. if the number is negative the program jumps back to the operation in which one is added to the accumulator. Once the number in the accumulator is no longer negative, it ends.
 
 #### Program 1 Controller States.
 
 (note: Starting at 35ns, since 0-30ns is given).
+
+  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 1 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 2 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 3 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 4 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 5 of 5")
+          
 
 #### Answers to Questions
 
