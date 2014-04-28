@@ -36,7 +36,7 @@ Next State: Direct I/O Execute
 
 3.	What are the three status signals sent from the PRISM datapath to the PRISM controller?
 
-The datapatgh control, datapath status and system control.
+AeqZero_int, AlessZero_Int, and IR.
 
 4.	Why is it important that ACCLd signal be active during the execute state for the ADDI instruction?
 Accld must be active during the execution of ADDI because the number in the operand is being added to the number
@@ -52,6 +52,10 @@ The required addition is a method that stores the value in the accumulator, foll
   1st program Demo on FPGA [COMPLETED]
   
   2nd program Demo in PRISM [COMPLETED] *image below*
+  
+    ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/Program_2_PRISM.GIF?raw=true "PRISM SNIP")
+  
+  2nd program Demo in FPGA [COMPLETED] *image below*
   
     ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/Program_2_PRISM.GIF?raw=true "PRISM SNIP")
   
