@@ -48,6 +48,9 @@ The required addition is a method that stores the value in the accumulator, foll
 
 
 ##Required Functionality:
+
   1st program Demo on FPGA [COMPLETED]
+  
   2nd program Demo in PRISM [COMPLETED]
+
   
