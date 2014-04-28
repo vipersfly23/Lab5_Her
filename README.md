@@ -51,6 +51,11 @@ The required addition is a method that stores the value in the accumulator, foll
 
   1st program Demo on FPGA [COMPLETED]
   
-  2nd program Demo in PRISM [COMPLETED]
+  2nd program Demo in PRISM [COMPLETED] *image below*
+  
+    ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/Program_2_PRISM.GIF?raw=true "PRISM SNIP")
+  
+ 
+  
 
   
