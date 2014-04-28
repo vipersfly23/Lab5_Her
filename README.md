@@ -134,5 +134,6 @@ The required addition is a method that stores the value in the accumulator, foll
  
  
   
-
+####Documentation:
+  I double check my answer to question number 3 with J.P. Terragnoli's repository, after being referenced by him.
   
