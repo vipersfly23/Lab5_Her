@@ -12,11 +12,11 @@ The purpose of this program is to keep adding 1 until the number in the accumula
 
 (note: Starting at 35ns, since 0-30ns is given).
 
-  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 1 of 5")
-  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 2 of 5")
-  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 3 of 5")
-  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 4 of 5")
-  ![alt text](https://github.com/vipersfly23/Lab4_Her/blob/master/ALU_case.GIF?raw=true "Control State 5 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/1.gif?raw=true "Control State 1 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/2.gif?raw=true "Control State 2 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/3.gif?raw=true "Control State 3 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/4.gif?raw=true "Control State 4 of 5")
+  ![alt text](https://github.com/vipersfly23/Lab5_Her/blob/master/5.gif?raw=true "Control State 5 of 5")
           
 
 #### Answers to Questions
@@ -48,6 +48,9 @@ The required addition is a method that stores the value in the accumulator, foll
 
 
 ##Required Functionality:
+
   1st program Demo on FPGA [COMPLETED]
+  
   2nd program Demo in PRISM [COMPLETED]
+
   
